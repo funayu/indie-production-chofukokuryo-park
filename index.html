@@ -7,7 +7,7 @@
     <meta name="robots" content="noindex, nofollow" />
     <meta
       name="”keywords”"
-      content="調布, 多摩, 東京, 遊園地, 植物,
+      content="調布, 国領, 多摩, 東京, 遊園地, 植物,
 花, ガーデン, 都内, 家族, レジャー, 屋外"
     />
     <meta
@@ -18,5 +18,48 @@
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <h1><img src="images/logo/logo.svg" alt="調布こくりょうパーク" /></h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="#"
+              ><img src="images/nav/ferris-wheel.svg" alt="観覧車アイコン" />
+              <div>おすすめアトラクション</div></a
+            >
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/nav/roller-coster.svg" alt="ジェットコースターアイコン" />
+              <div>まだまだあるアトラクション</div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/nav/flower.svg" alt="花アイコン" />
+              <div>フラワーガーデン</div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/nav/train.svg" alt="電車アイコン" />
+              <div>アクセス</div>
+            </a>
+          </li>
+          <li><a href="#"></a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="topmain">
+      <picture>
+        <source
+          media="(max-width: 599px)"
+          srcset="images/topmain/main-img-sp@865.jpg 2x, images/topmain/main-img-sp@1284.jpg 3x"
+        />
+        <source media="(max-width: 959px)" srcset="images/topmain/main-img-tab@1712.jpg 2x" />
+        <img src="images/topmain/main-img-pc@2000.jpg" alt="期間限定 入園料割引キャンペーン実施中" />
+      </picture>
+    </div>
+  </body>
 </html>
