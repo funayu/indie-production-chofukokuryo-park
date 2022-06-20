@@ -125,21 +125,19 @@ main article h2 span {
   color: #595757;
 }
 /* TODO:形状は楕円にする */
-#more_attractions section:nth-of-type(odd) img {
-  border: 7px solid #fff948;
+/* TODO：色が交互になるようにする */
+#more_attractions section img {
   border-radius: 20px;
+  border: 7px solid #fff948;
 }
 #more_attractions section:nth-of-type(even) img {
-  border: 7px solid #e8c1e1;
-  border-radius: 20px;
+  border-color: #e8c1e1;
 }
 /* TODO:背景はリボン型にする */
 /* TODO:位置はもう少し上 */
 #more_attractions section h3 {
   font-family: 'KiwiMaru-Medium';
   line-height: 36px;
-}
-#more_attractions section:nth-of-type(odd) h3 {
   background-color: #fff948;
 }
 #more_attractions section:nth-of-type(even) h3 {
@@ -210,6 +208,21 @@ main article h2 span {
 #footer-content small {
   font-size: 10px;
 }
+
 /* TAB用 */
+@media screen and (min-width: 600px) {
+  header {
+    padding: 10px;
+  }
+  header h1 {
+    width: 19.251%;
+  }
+  /* TODO:タブレット用ナビゲーションサイズ調整 */
+  main article {
+    padding: 40px 0 120px;
+  }
+}
 
 /* PC用 */
+@media screen and (min-width: 960px) {
+}
