@@ -58,6 +58,7 @@ nav ul li a {
   display: block;
   height: 48px;
 }
+/* TODO:なみなみの仕切りを入れる */
 main article {
   padding: 20px 0 60px 0;
 }
@@ -148,6 +149,63 @@ main article h2 span {
   font-size: 14px;
   text-align: left;
   padding: 11px;
+}
+#flower_garden {
+  padding-right: 22px;
+  padding-left: 22px;
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; */
+}
+#flower_garden h2 span {
+  color: #f6a1a1;
+}
+#flower_garden ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.812%;
+}
+/* TODO:ボーダーの仕切りを入れる */
+#access {
+  padding-right: 50.5px;
+  padding-left: 50.5px;
+}
+#access h2 span {
+  color: #f6a1a1;
+}
+/* TODO:地図の縮尺、場所調整 */
+#access iframe {
+  width: 100vw;
+  height: 154px;
+  margin-bottom: 10px;
+  margin-right: -50.5px;
+  margin-left: -50.5px;
+}
+#access section h3 {
+  border-left: 4px solid #e8c1e1;
+  padding: 0 10px;
+  line-height: 32px;
+}
+#access section p {
+  font-size: 14px;
+  padding: 10px;
+}
+footer {
+  text-align: center;
+  background-color: #f6a1a1;
+  padding: 10px 0 20px;
+  color: #fff;
+}
+footer div img {
+  width: 29.041%;
+  margin-bottom: 10px;
+}
+footer p {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+footer small {
+  font-size: 10px;
 }
 /* TAB用 */
 
