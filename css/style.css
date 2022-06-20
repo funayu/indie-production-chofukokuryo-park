@@ -1,11 +1,27 @@
 @charset "UTF-8";
 /* CSS Document */
+@font-face {
+  font-family: 'KiwiMaru-Medium';
+  src: url('../font/KiwiMaru-Medium.ttf');
+}
+@font-face {
+  font-family: 'KiwiMaru-Regular';
+  src: url('../font/KiwiMaru-Regular.ttf');
+}
+@font-face {
+  font-family: 'WalterTurncoat-Regular';
+  src: url('../font/WalterTurncoat-Regular.ttf');
+}
+* {
+  box-sizing: border-box;
+}
 body {
   font-size: 16px;
   color: #000;
   font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', Meiryo, 'sans-serif';
   background: #fff;
   line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
 }
 img {
   vertical-align: bottom;
@@ -14,12 +30,20 @@ img {
 }
 
 /* SP用 */
-header {
-  width: 88.2666%;
+#wrapper {
+  width: 100%;
   margin: 0 auto;
+}
+header {
+  width: 88.266%;
+  margin: 10px auto;
 }
 header h1 {
   width: 42.9%;
+}
+/* TODO:ハンバーガーメニュー実装する */
+nav {
+  display: none;
 }
 nav ul li {
   width: 48.942%;
@@ -34,6 +58,17 @@ nav ul li a {
   color: #595757;
   display: block;
   height: 48px;
+}
+
+main article h2 {
+  font-size: 14px;
+  font-family: 'KiwiMaru-Regular';
+  text-align: center;
+}
+main article h2 span {
+  display: block;
+  font-size: 20px;
+  font-family: 'WalterTurncoat-Regular';
 }
 /* TAB用 */
 
