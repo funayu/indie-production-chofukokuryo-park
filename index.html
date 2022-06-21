@@ -20,6 +20,17 @@
   </head>
   <body>
     <div id="wrapper">
+      <div id="topmain">
+        <picture>
+          <source
+            media="(max-width: 599px)"
+            srcset="images/topmain/main-img-sp@865.jpg 2x, images/topmain/main-img-sp@1284.jpg 3x"
+          />
+          <source media="(max-width: 979px)" srcset="images/topmain/main-img-tab@1712.jpg 2x" />
+          <img src="images/topmain/main-img-pc@2000.jpg" alt="期間限定 入園料割引キャンペーン実施中" />
+        </picture>
+      </div>
+      <!--#top_mainの終了タグ-->
       <header>
         <h1><img src="images/logo/logo.svg" alt="調布こくりょうパーク" /></h1>
         <nav>
@@ -43,16 +54,6 @@
           </ul>
         </nav>
       </header>
-      <div id="topmain">
-        <picture>
-          <source
-            media="(max-width: 599px)"
-            srcset="images/topmain/main-img-sp@865.jpg 2x, images/topmain/main-img-sp@1284.jpg 3x"
-          />
-          <source media="(max-width: 959px)" srcset="images/topmain/main-img-tab@1712.jpg 2x" />
-          <img src="images/topmain/main-img-pc@2000.jpg" alt="期間限定 入園料割引キャンペーン実施中" />
-        </picture>
-      </div>
       <main>
         <article id="recommend_attractions">
           <h2>
@@ -60,25 +61,25 @@
             おすすめアトラクション
           </h2>
           <section>
-            <div class="recommend_attractions_content">
-              <picture>
-                <source media="(max-width: 599px)" srcset="images/recommend-attractions/kanransya@939.jpg 3x" />
-                <source media="(max-width: 959px)" srcset="images/recommend-attractions/kanransya@939.jpg 2x" />
-                <img src="images/recommend-attractions/kanransya@626.jpg" alt="空と観覧車の風景" />
-              </picture>
+            <picture>
+              <source media="(max-width: 599px)" srcset="images/recommend-attractions/kanransya@939.jpg 3x" />
+              <source media="(max-width: 979px)" srcset="images/recommend-attractions/kanransya@939.jpg 2x" />
+              <img src="images/recommend-attractions/kanransya@626.jpg" alt="空と観覧車の風景" />
+            </picture>
+            <div class="recommend_attractions_inner">
               <h3>観覧車</h3>
               <p>
                 アトラクション説明アトラクション説明アトラクション説明アトラクション説明アトラクション説明アトラクション説明アトラクション説明アトラクション説明アトラクション説明
               </p>
             </div>
           </section>
-          <section>
-            <div class="recommend_attractions_content">
-              <picture>
-                <source media="(max-width: 599px)" srcset="images/recommend-attractions/skycycle@939.jpg 3x" />
-                <source media="(max-width: 959px)" srcset="images/recommend-attractions/skycycle@939.jpg 2x" />
-                <img src="images/recommend-attractions/skycycle@626.jpg" alt="スカイサイクルを漕ぐ2人" />
-              </picture>
+          <section class="reverse">
+            <picture>
+              <source media="(max-width: 599px)" srcset="images/recommend-attractions/skycycle@939.jpg 3x" />
+              <source media="(max-width: 979px)" srcset="images/recommend-attractions/skycycle@939.jpg 2x" />
+              <img src="images/recommend-attractions/skycycle@626.jpg" alt="スカイサイクルを漕ぐ2人" />
+            </picture>
+            <div class="recommend_attractions_inner">
               <h3>スカイサイクル</h3>
               <p>
                 アトラクション説明アトラクション説明アトラクション説明アトラクション説明アトラクション説明アトラクション説明アトラクション説明アトラクション説明アトラクション説明
@@ -86,12 +87,12 @@
             </div>
           </section>
           <section>
-            <div class="recommend_attractions_content">
-              <picture>
-                <source media="(max-width: 599px)" srcset="images/recommend-attractions/airplane@939.jpg 3x" />
-                <source media="(max-width: 959px)" srcset="images/recommend-attractions/airplane@939.jpg 2x" />
-                <img src="images/recommend-attractions/airplane@626.jpg" alt="飛行機型のアトラクションを楽しむ人達" />
-              </picture>
+            <picture>
+              <source media="(max-width: 599px)" srcset="images/recommend-attractions/airplane@939.jpg 3x" />
+              <source media="(max-width: 979px)" srcset="images/recommend-attractions/airplane@939.jpg 2x" />
+              <img src="images/recommend-attractions/airplane@626.jpg" alt="飛行機型のアトラクションを楽しむ人達" />
+            </picture>
+            <div class="recommend_attractions_inner">
               <h3>エアプレーン</h3>
               <p>
                 アトラクション説明アトラクション説明アトラクション説明アトラクション説明アトラクション説明アトラクション説明アトラクション説明アトラクション説明アトラクション説明
@@ -184,5 +185,19 @@
         </div>
       </footer>
     </div>
+    <!--#wrapperの終了タグ-->
   </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
