@@ -30,7 +30,6 @@ img {
 }
 
 /* SP用 */
-/*TODO:横スクロール出ているのに対処する*/
 #wrapper {
   width: 100%;
   margin: 0 auto;
@@ -47,6 +46,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
+  background-color: #fff;
 }
 header h1 {
   width: 156px;
@@ -389,5 +389,26 @@ main article h2 span {
   main article h2 span {
     font-size: 44px;
     margin-bottom: 36px;
+  }
+  #recommend_attractions section {
+    width: 1173px;
+    margin-bottom: 60px;
+  }
+  #recommend_attractions section picture {
+    width: 565px;
+  }
+  #recommend_attractions section h3 {
+    font-size: 30px;
+    padding-top: 60px;
+    margin-bottom: 20px;
+  }
+  #recommend_attractions .recommend_attractions_inner {
+    width: 399px;
+  }
+  #recommend_attractions section:nth-of-type(odd) .recommend_attractions_inner {
+    margin-left: 16px;
+  }
+  #recommend_attractions section:nth-of-type(even) .recommend_attractions_inner {
+    margin-right: 16px;
   }
 }
