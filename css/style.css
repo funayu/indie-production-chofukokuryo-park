@@ -35,22 +35,22 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-#topmain{
-  margin-top:60px;
+#topmain {
+  margin-top: 60px;
 }
-#topmain img{
+#topmain img {
   width: 100%;
 }
 header {
   padding: 0 6%;
   position: fixed;
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
   width: 100%;
 }
 header h1 {
   width: 156px;
-  padding:10.225px 0;
+  padding: 10.225px 0;
 }
 /* TODO:ハンバーガーメニュー実装する */
 header nav {
@@ -104,7 +104,8 @@ main article h2 span {
   color: #fff;
   padding-bottom: 10px;
 }
-#recommend_attractions section picture,.recommend_attractions_inner{
+#recommend_attractions section picture,
+.recommend_attractions_inner {
   width: 73.066%;
   margin: 0 auto;
 }
@@ -143,8 +144,10 @@ main article h2 span {
   border-radius: 20px;
   border: 7px solid #fff948;
 }
-#more_attractions section:nth-of-type(2) img,#more_attractions section:nth-of-type(3) img,#more_attractions section:nth-of-type(6) img{
-  border-color: #E8C1E1
+#more_attractions section:nth-of-type(2) img,
+#more_attractions section:nth-of-type(3) img,
+#more_attractions section:nth-of-type(6) img {
+  border-color: #e8c1e1;
 }
 /* TODO:背景はリボン型にする */
 /* TODO:位置はもう少し上 */
@@ -153,7 +156,9 @@ main article h2 span {
   line-height: 36px;
   background-color: #fff948;
 }
-#more_attractions section:nth-of-type(2) h3,#more_attractions section:nth-of-type(3) h3,#more_attractions section:nth-of-type(6) h3 {
+#more_attractions section:nth-of-type(2) h3,
+#more_attractions section:nth-of-type(3) h3,
+#more_attractions section:nth-of-type(6) h3 {
   background-color: #e8c1e1;
 }
 #more_attractions section p {
@@ -184,8 +189,8 @@ main article h2 span {
 /* TODO:地図の縮尺、場所調整 */
 #access iframe {
   width: 100vw;
-  height: 154px;
-  margin: 0 -13.466% 10px;
+  height: 300px;
+  margin: 0 -13.466vw 10px;
 }
 #access section h3 {
   border-left: 4px solid #e8c1e1;
@@ -231,132 +236,126 @@ main article h2 span {
   main article {
     padding: 40px 0 120px;
   }
-  main article h2{
+  main article h2 {
     font-size: 20px;
     margin-bottom: 40px;
   }
   main article h2 span {
-  font-size: 30px;
-  margin-bottom: 10px;
+    font-size: 30px;
+    margin-bottom: 10px;
   }
-  #recommend_attractions section{
+  #recommend_attractions section {
     display: flex;
     width: 94.01%;
     padding-bottom: 0;
-    margin:0 auto 40px;
+    margin: 0 auto 40px;
   }
-  #recommend_attractions .reverse{
+  #recommend_attractions .reverse {
     flex-direction: row-reverse;
   }
-  #recommend_attractions section:nth-of-type(odd){
+  #recommend_attractions section:nth-of-type(odd) {
     margin-right: 0;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
   }
-  #recommend_attractions section:nth-of-type(even){
+  #recommend_attractions section:nth-of-type(even) {
     margin-left: 0;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
   }
-  #recommend_attractions section picture{
+  #recommend_attractions section picture {
     width: 53.462%;
-    margin:0 0;
+    margin: 0 0;
   }
   #recommend_attractions section img {
     border-radius: 51px;
   }
-  #recommend_attractions section h3{
+  #recommend_attractions section h3 {
     font-size: 20px;
     padding-top: 10px;
     margin-bottom: 14px;
   }
-  .recommend_attractions_inner{
+  .recommend_attractions_inner {
     width: 37.534%;
   }
-  #recommend_attractions section:last-child{
+  #recommend_attractions section:last-child {
     margin-bottom: 0;
   }
   #more_attractions section {
     width: 31.36%;
     margin-bottom: 30px;
   }
-  #more_attractions section:nth-of-type(n+4)
-  {
+  #more_attractions section:nth-of-type(n + 4) {
     margin-bottom: 0;
   }
-  #more_attractions section img{
+  #more_attractions section img {
     border-width: 10px;
   }
-  #more_attractions section:nth-of-type(odd) img{
+  #more_attractions section:nth-of-type(odd) img {
     border-color: #fff948;
   }
-  #more_attractions section:nth-of-type(even) img{
-    border-color: #E8C1E1;
+  #more_attractions section:nth-of-type(even) img {
+    border-color: #e8c1e1;
   }
   #more_attractions section:nth-of-type(odd) h3 {
     background-color: #fff948;
   }
   #more_attractions section:nth-of-type(even) h3 {
-    background-color: #E8C1E1;
+    background-color: #e8c1e1;
   }
-  #more_attractions section h3{
+  #more_attractions section h3 {
     line-height: 50px;
     font-size: 20px;
   }
   #more_attractions section p {
-  font-size: 16px;
+    font-size: 16px;
   }
-  #flower_garden{
+  #flower_garden {
     padding-right: 13.541%;
     padding-left: 13.541%;
   }
-  #access{
+  #access {
     padding-right: 13.541%;
     padding-left: 13.541%;
   }
   #access iframe {
     width: 100%;
     height: 314px;
-    margin:0 0 30px;
+    margin: 0 0 30px;
   }
   #access section h3 {
     border-width: 5px;
     line-height: 34px;
     font-size: 18px;
   }
-  #access section p{
+  #access section p {
     font-size: 16px;
   }
-  #footer-img img{
+  #footer-img img {
     width: 62.5%;
   }
-  #footer-content{
+  #footer-content {
     padding-top: 20px;
   }
-  #footer-content img{
+  #footer-content img {
     width: 27.604%;
     margin-bottom: 20px;
   }
-  #footer-content p{
+  #footer-content p {
     margin-bottom: 20px;
   }
-  #footer-content small{
+  #footer-content small {
     font-size: 12px;
     margin-bottom: 20px;
   }
 }
 
-
-
-
-
-
 /* PC用 */
 @media screen and (min-width: 980px) {
-  #topmain{
+  #topmain {
     margin-top: 0;
   }
-  header{
+  header {
     position: static;
     padding: 20px 0;
     display: flex;
@@ -364,13 +363,13 @@ main article h2 span {
     width: 980px;
     margin: 0 auto;
   }
-  header h1{
+  header h1 {
     width: 233px;
   }
-  header nav{
+  header nav {
     display: block;
   }
-  header nav ul{
+  header nav ul {
     display: flex;
   }
   header nav ul li {
@@ -379,7 +378,7 @@ main article h2 span {
   }
   header nav ul li img {
     width: 84px;
-  }  
+  }
   main article {
     padding: 60px 0 140px;
   }
@@ -392,44 +391,3 @@ main article h2 span {
     margin-bottom: 36px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
