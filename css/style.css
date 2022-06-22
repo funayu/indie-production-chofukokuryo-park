@@ -264,7 +264,7 @@ footer small {
   position: relative;
   width: 100vw;
 }
-.separation picture {
+.separation picture img {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -272,7 +272,7 @@ footer small {
   display: block;
   z-index: 1;
 }
-.separation-bottom picture {
+.separation-bottom picture img {
   top: 0;
 }
 
