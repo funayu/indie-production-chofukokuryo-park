@@ -37,6 +37,8 @@ img {
 #topmain {
   margin-top: 60px;
   position: relative;
+  /* アニメーションの円がはみ出した分横スクロールが出ないようにする対処 */
+  overflow: hidden;
 }
 #topmain img {
   width: 100%;
