@@ -126,6 +126,8 @@ main article h2 span {
   background-color: #ccfaff;
   padding-right: 6%;
   padding-left: 6%;
+}
+#more_attractions_content {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -191,6 +193,9 @@ main article h2 span {
   width: 100vw;
   height: 300px;
   margin: 0 -13.466vw 10px;
+}
+#access section:first-of-type {
+  margin-bottom: 10px;
 }
 #access section h3 {
   border-left: 4px solid #e8c1e1;
@@ -318,6 +323,9 @@ main article h2 span {
     padding-right: 13.541%;
     padding-left: 13.541%;
   }
+  #access section:first-of-type {
+    margin-bottom: 15px;
+  }
   #access iframe {
     width: 100%;
     height: 314px;
@@ -410,5 +418,64 @@ main article h2 span {
   }
   #recommend_attractions section:nth-of-type(even) .recommend_attractions_inner {
     margin-right: 16px;
+  }
+  #more_attractions {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  #more_attractions_content {
+    width: 980px;
+    margin: 0 auto;
+  }
+  #more_attractions section {
+    width: 315px;
+  }
+  #more_attractions section img {
+    width: 295px;
+  }
+  #more_attractions section h3 {
+    line-height: 70px;
+    font-size: 28px;
+  }
+  #more_attractions section p {
+    padding: 20px;
+  }
+  #flower_garden {
+    padding-right: 0;
+    padding-left: 0;
+    width: 810px;
+    margin: 0 auto;
+  }
+  #flower_garden ul {
+    gap: 15px;
+  }
+  #access {
+    padding-right: 0;
+    padding-left: 0;
+    width: 482px;
+    margin: 0 auto;
+  }
+  #access section:first-of-type {
+    margin-bottom: 20px;
+  }
+  #access iframe {
+    height: 361px;
+    margin-bottom: 40px;
+  }
+  #access section h3 {
+    font-size: 20px;
+    border-left-width: 5px;
+    line-height: 40px;
+  }
+  #access section p {
+    font-size: 18px;
+    padding-left: 15px;
+  }
+  #footer-img {
+    width: 980px;
+  }
+  #footer-img img {
+    width: 731px;
+    margin-right: 0;
   }
 }
