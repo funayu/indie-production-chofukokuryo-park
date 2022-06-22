@@ -39,6 +39,7 @@ img {
 }
 #topmain img {
   width: 100%;
+  position: relative;
 }
 header {
   padding: 0 6%;
@@ -47,6 +48,7 @@ header {
   left: 0;
   width: 100%;
   background-color: #fff;
+  z-index: 2;
 }
 header h1 {
   width: 156px;
@@ -92,6 +94,7 @@ main article h2 span {
 }
 #recommend_attractions {
   background-color: #def496;
+  position: relative;
 }
 #recommend_attractions h2 span {
   color: #91b709;
@@ -127,6 +130,7 @@ main article h2 span {
   background-color: #ccfaff;
   padding-right: 6%;
   padding-left: 6%;
+  position: relative;
 }
 #more_attractions_content {
   display: flex;
@@ -172,6 +176,7 @@ main article h2 span {
 #flower_garden {
   padding-right: 6%;
   padding-left: 6%;
+  position: relative;
 }
 #flower_garden h2 span {
   color: #f6a1a1;
@@ -185,6 +190,7 @@ main article h2 span {
 #access {
   padding-right: 13.466%;
   padding-left: 13.466%;
+  position: relative;
 }
 #access h2 span {
   color: #f6a1a1;
@@ -202,15 +208,17 @@ main article h2 span {
   border-left: 4px solid #e8c1e1;
   padding: 0 10px;
   line-height: 32px;
+  color: #595757;
 }
 #access section p {
   font-size: 14px;
   padding: 10px;
+  color: #595757;
 }
-#main-bottom {
+#bottom-img {
   text-align: right;
 }
-#main-bottom img {
+#bottom-img img {
   width: 65.6%;
   margin-right: 6%;
   transform: translateY(30%);
@@ -234,6 +242,8 @@ footer small {
   font-size: 10px;
   display: block;
 }
+
+/* 上に戻るボタン */
 #totop {
   color: #fff;
   background-color: #4ad0de;
@@ -247,6 +257,23 @@ footer small {
   bottom: 10px;
   right: 10px;
   display: none;
+}
+
+/* 仕切り線 */
+.separation {
+  position: relative;
+  width: 100vw;
+}
+.separation picture {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  display: block;
+  z-index: 1;
+}
+.separation-bottom picture {
+  top: 0;
 }
 
 /* TAB用 */
@@ -356,7 +383,7 @@ footer small {
   #access section p {
     font-size: 16px;
   }
-  #main-bottom img {
+  #bottom-img img {
     width: 62.5%;
   }
   footer {
@@ -487,12 +514,12 @@ footer small {
     font-size: 18px;
     padding-left: 15px;
   }
-  #main-bottom {
+  #bottom-img {
     width: 980px;
     margin: 0 auto;
     text-align: right;
   }
-  #main-bottom img {
+  #bottom-img img {
     width: 731px;
     margin-right: 0;
   }
