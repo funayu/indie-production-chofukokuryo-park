@@ -473,6 +473,8 @@ main article h2 span {
   }
   #footer-img {
     width: 980px;
+    margin: 0 auto;
+    text-align: right;
   }
   #footer-img img {
     width: 731px;
