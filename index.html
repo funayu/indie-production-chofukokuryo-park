@@ -18,6 +18,19 @@
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--トップへ戻るボタン-->
+    <script>
+      $(document).ready(function () {
+        const totop = $('#totop')
+        $(window).scroll(function () {
+          if ($(this).scrollTop() > 100) {
+            totop.fadeIn()
+          } else {
+            totop.fadeOut()
+          }
+        })
+      })
+    </script>
   </head>
   <body>
     <div id="wrapper">
@@ -177,6 +190,7 @@
         <div id="main-bottom">
           <img src="images/main-bottom/amusement_park_silhouette.svg" alt="遊園地のシルエットイラスト" />
         </div>
+        <!--main-bottomの終了タグ-->
       </main>
       <footer>
         <div id="footer-content">
@@ -187,9 +201,14 @@
             TEL 03-2222-1111
           </p>
         </div>
+        <!--#footer-contentの終了タグ-->
         <small>Copyright©2022 Chofu Kokuryo Park.All rights reserved.</small>
       </footer>
     </div>
     <!--#wrapperの終了タグ-->
+    <div id="totop">
+      <a href="#"><img src="images/totop/double_arrow_white.svg" alt="" /></a>
+    </div>
+    <!--#totopの終了タグ-->
   </body>
 </html>

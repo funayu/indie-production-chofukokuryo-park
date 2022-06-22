@@ -233,6 +233,20 @@ footer small {
   font-size: 10px;
   display: block;
 }
+#totop {
+  color: #fff;
+  background-color: #4ad0de;
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  display: none;
+}
 
 /* TAB用 */
 @media screen and (min-width: 600px) {
