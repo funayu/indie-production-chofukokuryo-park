@@ -36,6 +36,7 @@ img {
 }
 #topmain {
   margin-top: 60px;
+  position: relative;
 }
 #topmain img {
   width: 100%;
@@ -272,14 +273,34 @@ footer small {
 }
 
 /* メインビジュアルのサブイメージアニメーション */
-.subimg_left {
-  width: 200px;
-  position: relative;
+#topmain .subimg {
+  position: absolute;
 }
-.subimg_left img {
-  animation: imgRotate 20s linear infinite;
+#topmain .subimg_left {
+  width: 36%;
+  top: 27%;
+  left: -14%;
 }
-@keyframes imgRotate {
+#topmain .subimg_left img {
+  animation: counterClockwise 20s linear infinite;
+}
+#topmain .subimg_right {
+  width: 51%;
+  top: -6%;
+  right: -20%;
+}
+#topmain .subimg_right img {
+  animation: clockwise 20s linear infinite;
+}
+@keyframes counterClockwise {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes clockwise {
   0% {
     transform: rotate(0deg);
   }
