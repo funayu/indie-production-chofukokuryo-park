@@ -39,7 +39,6 @@ img {
 }
 #topmain img {
   width: 100%;
-  position: relative;
 }
 header {
   padding: 0 6%;
@@ -94,7 +93,6 @@ main article h2 span {
 }
 #recommend_attractions {
   background-color: #def496;
-  position: relative;
 }
 #recommend_attractions h2 span {
   color: #91b709;
@@ -130,7 +128,6 @@ main article h2 span {
   background-color: #ccfaff;
   padding-right: 6%;
   padding-left: 6%;
-  position: relative;
 }
 #more_attractions_content {
   display: flex;
@@ -176,7 +173,6 @@ main article h2 span {
 #flower_garden {
   padding-right: 6%;
   padding-left: 6%;
-  position: relative;
 }
 #flower_garden h2 span {
   color: #f6a1a1;
@@ -190,7 +186,6 @@ main article h2 span {
 #access {
   padding-right: 13.466%;
   padding-left: 13.466%;
-  position: relative;
 }
 #access h2 span {
   color: #f6a1a1;
