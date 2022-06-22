@@ -63,10 +63,11 @@ header nav ul li {
 }
 header nav ul li img {
   width: 55.555%;
+  display: block;
+  margin: 0 auto;
 }
 header nav ul li a {
   line-height: 1;
-  height: 2em;
   text-decoration: none;
   color: #595757;
   display: block;
