@@ -276,6 +276,23 @@ footer small {
   top: 0;
 }
 
+/* メインビジュアルのサブイメージアニメーション */
+.subimg_left {
+  width: 200px;
+  position: relative;
+}
+.subimg_left img {
+  animation: imgRotate 20s linear infinite;
+}
+@keyframes imgRotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 /* TAB用 */
 @media screen and (min-width: 600px) {
   header {
