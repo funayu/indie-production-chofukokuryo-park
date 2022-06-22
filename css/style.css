@@ -213,23 +213,25 @@ main article h2 span {
   width: 65.6%;
   margin-right: 6%;
   transform: translateY(30%);
+  position: relative;
+  z-index: -1;
 }
-#footer-content {
+footer {
   background-color: #f6a1a1;
-  padding: 10px 0 20px;
   color: #fff;
   text-align: center;
+  padding: 10px 0 20px;
 }
-#footer-content img {
+footer img {
   width: 29.041%;
   margin-bottom: 10px;
 }
-#footer-content p {
+footer p {
   font-size: 12px;
-  margin-bottom: 10px;
 }
-#footer-content small {
+footer small {
   font-size: 10px;
+  display: block;
 }
 
 /* TAB用 */
@@ -342,19 +344,18 @@ main article h2 span {
   #main-bottom img {
     width: 62.5%;
   }
-  #footer-content {
+  footer {
     padding-top: 20px;
   }
-  #footer-content img {
+  footer img {
     width: 27.604%;
     margin-bottom: 20px;
   }
-  #footer-content p {
+  footer p {
     margin-bottom: 20px;
   }
-  #footer-content small {
+  footer small {
     font-size: 12px;
-    margin-bottom: 20px;
   }
 }
 
@@ -479,5 +480,24 @@ main article h2 span {
   #main-bottom img {
     width: 731px;
     margin-right: 0;
+  }
+  footer {
+    padding-top: 0;
+    padding-bottom: 30px;
+  }
+  #footer-content {
+    width: 980px;
+    margin: 0 auto;
+    display: flex;
+    text-align: right;
+    justify-content: space-between;
+    height: 180px;
+    padding: 60.465px 0;
+  }
+  footer p {
+    font-size: 14px;
+  }
+  footer img {
+    width: 233px;
   }
 }
