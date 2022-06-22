@@ -76,7 +76,6 @@ header nav ul li a {
   color: #595757;
   display: block;
 }
-/* TODO:なみなみの仕切りを入れる */
 main article {
   padding: 20px 0 60px;
 }
@@ -185,7 +184,6 @@ main article h2 span {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1.812%;
 }
-/* TODO:ボーダーの仕切りを入れる */
 #access {
   padding-right: 13.466%;
   padding-left: 13.466%;
