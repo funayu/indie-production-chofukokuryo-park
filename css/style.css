@@ -52,7 +52,7 @@ header {
   background-color: #fff;
   z-index: 150;
 }
-#header_inner{
+#header_inner {
   display: flex;
   justify-content: space-between;
 }
@@ -60,7 +60,6 @@ header h1 {
   width: 156px;
   padding: 10.225px 0;
 }
-
 
 /*ハンバーガーボタン*/
 
@@ -82,21 +81,27 @@ header .btnHamburger .line {
   width: 30px; /* 横幅 */
   height: 4px; /* 1本辺りの高さ */
   background: #595757; /* 線の色 */
-/* 適用するプロパティ、変化する時間、変化する速度 */
+  /* 適用するプロパティ、変化する時間、変化する速度 */
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
- }
+}
 /* 3本線の各線の位置を指定 */
-header .btnHamburger .line_01 { top: 0; }
-header .btnHamburger .line_02 { top: 8px; }
-header .btnHamburger .line_03 { top: 16px; }
+header .btnHamburger .line_01 {
+  top: 0;
+}
+header .btnHamburger .line_02 {
+  top: 8px;
+}
+header .btnHamburger .line_03 {
+  top: 16px;
+}
 /*#coverlayerkクリック前*/
-#coverlayer{
+#coverlayer {
   width: 1px;
   background: #fff;
   position: fixed;
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
   bottom: 0;
   opacity: 0;
   transition: 0.5s;
@@ -105,9 +110,9 @@ header .btnHamburger .line_03 { top: 16px; }
 header nav {
   position: fixed;
   width: 43.2%;
-  top: 123px;
+  top: 90px;
   left: -43.2%;
-  opacity:0;
+  opacity: 0;
   transition: 0.5s;
 }
 
@@ -131,17 +136,16 @@ header nav {
   transform: rotate(135deg);
 }
 /*#coverlayerkクリック後*/
-#coverlayer.is-active{
+#coverlayer.is-active {
   width: 100%;
-  opacity:0.8;
+  opacity: 0.8;
 }
 /*navクリック後*/
-nav.is-active{
-  left:50%;
+nav.is-active {
+  left: 50%;
   transform: translateX(-50%);
   opacity: 1;
 }
-
 
 header nav ul li {
   text-align: center;
@@ -153,7 +157,7 @@ header nav ul li img {
   margin: 0 auto;
 }
 header nav ul li a {
-  font-family: "KiwiMaru-Regular";
+  font-family: 'KiwiMaru-Regular';
   line-height: 1;
   text-decoration: none;
   color: #595757;
@@ -247,9 +251,10 @@ main article h2 span {
   line-height: 36px;
   background-color: #fff948;
   position: relative;
-  transform: translateY(-5px)
+  transform: translateY(-5px);
 }
-#more_attractions section h3:before,#more_attractions section h3:after{
+#more_attractions section h3:before,
+#more_attractions section h3:after {
   position: absolute;
   content: '';
   width: 0px;
@@ -257,14 +262,14 @@ main article h2 span {
   z-index: 1;
 }
 /*見出しをリボン型にする設定*/
-#more_attractions section h3:before{
+#more_attractions section h3:before {
   top: 0;
   left: 0;
   border-width: 18px 0px 18px 11px;
   border-color: transparent transparent transparent #ccfaff;
   border-style: solid;
 }
-#more_attractions section h3:after{
+#more_attractions section h3:after {
   top: 0;
   right: 0;
   border-width: 18px 11px 18px 0px;
@@ -421,16 +426,13 @@ footer small {
   }
 }
 
-
-
-
 /* TAB用 */
 @media screen and (min-width: 600px) {
   #topmain .subimg_left {
     width: 28%;
     top: 25%;
     left: -12%;
-  } 
+  }
   #topmain .subimg_right {
     width: 52%;
     top: -15%;
@@ -520,10 +522,10 @@ footer small {
     line-height: 50px;
     font-size: 20px;
   }
-  #more_attractions section h3:before{
+  #more_attractions section h3:before {
     border-width: 25px 0px 25px 8px;
   }
-  #more_attractions section h3:after{
+  #more_attractions section h3:after {
     border-width: 25px 8px 25px 0px;
   }
   #more_attractions section p {
@@ -580,7 +582,7 @@ footer small {
     width: 34%;
     top: -17%;
     left: -12%;
-  } 
+  }
   #topmain .subimg_right {
     width: 35%;
     top: 39%;
@@ -590,22 +592,22 @@ footer small {
     position: static;
     padding: 20px 0;
   }
-  #header_wrapper{
+  #header_wrapper {
     display: flex;
     justify-content: space-between;
     width: 980px;
-    margin: 0 auto;    
+    margin: 0 auto;
   }
   .fixed {
     position: fixed;
     width: 100%;
     top: 0;
-    background-color: rgba(255,255,255,0.80);
+    background-color: rgba(255, 255, 255, 0.8);
   }
   header h1 {
     width: 233px;
   }
-  header .btnHamburger{
+  header .btnHamburger {
     display: none;
   }
   header nav {
@@ -679,10 +681,10 @@ footer small {
     line-height: 70px;
     font-size: 28px;
   }
-  #more_attractions section h3:before{
+  #more_attractions section h3:before {
     border-width: 35px 0px 35px 16px;
   }
-  #more_attractions section h3:after{
+  #more_attractions section h3:after {
     border-width: 35px 16px 35px 0px;
   }
   #more_attractions section p {
