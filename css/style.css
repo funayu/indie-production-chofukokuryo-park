@@ -110,7 +110,7 @@ header .btnHamburger .line_03 {
 header nav {
   position: fixed;
   width: 43.2%;
-  top: 90px;
+  top: 80px;
   left: -43.2%;
   opacity: 0;
   transition: 0.5s;
