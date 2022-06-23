@@ -41,31 +41,48 @@
         <!-- .subimg_rightの終了タグ -->
       </div>
       <!--#top_mainの終了タグ-->
+      
       <header>
-        <h1><img src="images/logo/logo_darkgray.svg" alt="調布こくりょうパーク" /></h1>
-        <nav>
-          <ul>
-            <li id="nav_recommend">
-              <a href="#recommend_attractions">
-                <img src="images/nav/ferris-wheel.svg" alt="観覧車アイコン" />おすすめ<br />アトラクション</a
-              >
-            </li>
-            <li id="nav_more">
-              <a href="#more_attractions">
-                <img
-                  src="images/nav/roller-coster.svg"
-                  alt="ジェットコースターアイコン"
-                />まだまだある<br />アトラクション
-              </a>
-            </li>
-            <li id="nav_flower">
-              <a href="#flower_garden"><img src="images/nav/flower.svg" alt="お花アイコン" />フラワーガーデン </a>
-            </li>
-            <li id="nav_access">
-              <a href="#access"> <img src="images/nav/train.svg" alt="観覧車アイコン" />アクセス</a>
-            </li>
-          </ul>
-        </nav>
+        <div id="header_wrapper">
+          <div id="header_inner">        
+            <h1><img src="images/logo/logo_darkgray.svg" alt="調布こくりょうパーク" /></h1>
+
+            <!-- ハンバーガーボタン押下時に表示されるレイヤー -->
+            <div id="coverlayer"></div>
+            <!--ハンバーガーボタン-->
+            <div class="btnHamburger">
+              <span class="line line_01"></span>
+              <span class="line line_02"></span>
+              <span class="line line_03"></span>
+            </div>
+            <!-- #btnHamburgerの終了タグ  -->
+          </div>
+          <!-- #header_innerの終了タグ  -->
+          <nav>
+            <ul>
+              <li id="nav_recommend">
+                <a href="#recommend_attractions">
+                  <img src="images/nav/ferris-wheel.svg" alt="観覧車アイコン" />おすすめ<br />アトラクション</a
+                >
+              </li>
+              <li id="nav_more">
+                <a href="#more_attractions">
+                  <img
+                    src="images/nav/roller-coster.svg"
+                    alt="ジェットコースターアイコン"
+                  />まだまだある<br />アトラクション
+                </a>
+              </li>
+              <li id="nav_flower">
+                <a href="#flower_garden"><img src="images/nav/flower.svg" alt="お花アイコン" />フラワーガーデン </a>
+              </li>
+              <li id="nav_access">
+                <a href="#access"> <img src="images/nav/train.svg" alt="観覧車アイコン" />アクセス</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <!-- #header_wrapperの終了タグ-->
       </header>
       <div class="separation">
         <picture>
@@ -93,7 +110,7 @@
             <div class="recommend_attractions_inner">
               <h3>観覧車</h3>
               <p>
-                アトラクション説明アトラクション説明アトラクション説明アトラクション説明アトラクション説明アトラクション説明アトラクション説明アトラクション説明アトラクション説明
+                遊園地の定番言えば観覧車。園全体はもちろん、調布市の街並み、天気が良ければ都心のビル群も見渡せるかも。お子さまからおとなの方まで幅広くお楽しみいただけます。
               </p>
             </div>
           </section>
@@ -106,7 +123,7 @@
             <div class="recommend_attractions_inner">
               <h3>スカイサイクル</h3>
               <p>
-                アトラクション説明アトラクション説明アトラクション説明アトラクション説明アトラクション説明アトラクション説明アトラクション説明アトラクション説明アトラクション説明
+                自転車に乗り空中散歩。コース上を自転車をこいで進んでいきます。昼間はもちろん、少し遅い時間帯も夕日や園内のイルミネーションを眺めながら運転を楽しむことができます。
               </p>
             </div>
           </section>
@@ -119,7 +136,7 @@
             <div class="recommend_attractions_inner">
               <h3>エアプレーン</h3>
               <p>
-                アトラクション説明アトラクション説明アトラクション説明アトラクション説明アトラクション説明アトラクション説明アトラクション説明アトラクション説明アトラクション説明
+                グルグル回りながら縦にも動く飛行機で園内飛行。何と自分で上下の動きを操作できます。回るスピードは緩やかなため小さなお子様も保護者様と一緒にお楽しみいただけます。
               </p>
             </div>
           </section>
@@ -147,32 +164,32 @@
             <section>
               <img src="images/more-attractions/jetcoaster@555.jpg" alt="運転中のジェットコースター" />
               <h3>ジェットコースター</h3>
-              <p>アトラクション説明アトラクション説明アトラクション説明</p>
+              <p>お子様もOKのファミリーコースター。</p>
             </section>
             <section>
               <img src="images/more-attractions/coffeecup@555.jpg" alt="コーヒーカップのアップ" />
               <h3>コーヒーカップ</h3>
-              <p>アトラクション説明アトラクション説明アトラクション説明</p>
+              <p>こちらも遊園地の定番、回しすぎ注意。</p>
             </section>
             <section>
               <img src="images/more-attractions/gocart@555.jpg" alt="停止中のゴーカート" />
               <h3>ゴーカート</h3>
-              <p>アトラクション説明アトラクション説明アトラクション説明</p>
+              <p>2人乗りカートでコースをドライブ。</p>
             </section>
             <section>
               <img src="images/more-attractions/norimonopanda@555.jpg" alt="停止中の乗り物パンダ" />
               <h3>乗り物パンダ</h3>
-              <p>アトラクション説明アトラクション説明アトラクション説明</p>
+              <p>パンダの背中に乗って遊園地をお散歩。</p>
             </section>
             <section>
               <img src="images/more-attractions/merrygoround@555.jpg" alt="停止中のメリーゴーランド" />
               <h3>メリーゴーランド</h3>
-              <p>アトラクション説明アトラクション説明アトラクション説明</p>
+              <p>お馬さんに乗ってメルヘンなひととき。</p>
             </section>
             <section>
               <img src="images/more-attractions/swingride@555.jpg" alt="回転ブランコを楽しむ人々" />
               <h3>回転ブランコ</h3>
-              <p>アトラクション説明アトラクション説明アトラクション説明</p>
+              <p>爽快感たっぷりで景色も楽しめる。</p>
             </section>
           </div>
         </article>
@@ -229,11 +246,11 @@
           ></iframe>
           <section>
             <h3>電車でお越しの方</h3>
-            <p>アクセス方法詳細アクセス方法詳細</p>
+            <p>京王線「国領駅」から 徒歩6分</p>
           </section>
           <section>
             <h3>お車でお越しの方</h3>
-            <p>アクセス方法詳細アクセス方法詳細</p>
+            <p>中央自動車道「調布IC」から 2.5km</p>
           </section>
         </article>
       </main>
