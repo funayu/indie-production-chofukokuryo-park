@@ -183,6 +183,7 @@ main article h2 span {
 }
 #recommend_attractions {
   background-color: #def496;
+  overflow: hidden;
 }
 #recommend_attractions h2 span {
   color: #91b709;
@@ -637,7 +638,7 @@ footer small {
     margin-bottom: 36px;
   }
   #recommend_attractions section {
-    width: 1173px;
+    max-width: 1173px;
     margin-bottom: 60px;
   }
   #recommend_attractions section picture {
