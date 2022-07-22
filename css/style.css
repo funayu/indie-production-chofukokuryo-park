@@ -234,7 +234,6 @@ main article h2 span {
   color: #595757;
   margin-bottom: 10px;
 }
-/* TODO:形状は楕円にする */
 #more_attractions section img {
   border-radius: 20px;
   border: 7px solid #fff948;
@@ -246,7 +245,6 @@ main article h2 span {
   border-color: #e8c1e1;
   border-radius: 30px 52px 53px 42px / 61px 40px 32px 32px;
 }
-/* TODO:位置はもう少し上 */
 #more_attractions section h3 {
   font-family: 'KiwiMaru-Medium';
   line-height: 36px;
@@ -307,7 +305,6 @@ main article h2 span {
 #access h2 span {
   color: #f6a1a1;
 }
-/* TODO:地図の縮尺、場所調整 */
 #access iframe {
   width: 100vw;
   height: 300px;
@@ -376,18 +373,19 @@ footer small {
 /* 仕切り線 */
 .separation {
   position: relative;
-  width: 100vw;
+  width: 100%;
 }
 .separation picture img {
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   left: 0;
   width: 100vw;
   display: block;
   z-index: 1;
 }
 .separation-bottom picture img {
-  top: 0;
+  top: -1px;
+  bottom: auto;
 }
 
 /* メインビジュアルのサブイメージアニメーション */
